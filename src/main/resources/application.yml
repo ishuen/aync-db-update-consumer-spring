@@ -1,3 +1,8 @@
 spring:
-main:
-lazy-initialization: true
+  main:
+    lazy-initialization: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stock_db
+    user: stock_user
+    password: stock_password
