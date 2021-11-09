@@ -79,7 +79,7 @@ Table name: trade_data
 	\q
 	```
 	
-	- Rename `db.sample.config` file to `db.config` in consumer repo and specify the url, username and password.
+	- Rename `application.sample.yml` file to `application.ymp` in consumer repo and specify the url, username and password.
 	- Reconnect to the newly created database and create a table.
 	
 	```
