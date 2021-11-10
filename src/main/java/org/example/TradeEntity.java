@@ -3,9 +3,11 @@ package org.example;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.sql.Timestamp;
 
 @Entity
+@Table(name="trade_data")
 public class TradeEntity {
   @Id
   @Column(name = "trade_id")
