@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host:
+    port:
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url:
+    user:
+    password:
+
+queue:
+  name:
